@@ -13,8 +13,8 @@ typedef struct
 } Board;
 
 void fillCells(Board *board);
-void fillCell(Board *board, unsigned int column, unsigned int row);
-bool isValidCellPosition(Board *board, unsigned int column, unsigned int row);
+void fillCell(Board *board, unsigned int column, unsigned int row, unsigned int value);
+// bool isValidCellPosition(Board *board, unsigned int column, unsigned int row);
 bool isValidCellIndex(Board *board, unsigned int index);
 void drawBoard(Board *board);
 void shuffleCells(Board *board);
